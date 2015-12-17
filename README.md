@@ -9,7 +9,7 @@ In this lab, you will create arrays, add data to arrays, remove data from arrays
 1. Create a new array that contains data as well as a new array that is empty. 
 2. Add an element to the front of an array. 
 3. Add an element to the end of an array. 
-4. Remove an element from the from of an array. 
+4. Remove an element from the front of an array. 
 5. Remove an element from the end of an array. 
 6. Retrieve data from a specific array index. 
 
