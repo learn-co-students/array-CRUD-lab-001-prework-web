@@ -1,93 +1,38 @@
 def create_an_empty_array
-
-
-
-
-
-
   empty = []
 end
 
 def create_an_array
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  color = ["orange, "black", "lime", "red]
-
+  colors = ["tan", "orange", "blue", "red"]
 end
 
 def add_element_to_end_of_array(array, element)
-
-
-
-
-
-
-
-
-  color << "yellow"
-
+  colors << "black"
 end
 
 def add_element_to_start_of_array(array, element)
-
-
-
-
-
-
-
-  color.unshift("tan")
-
+  colors.unshift("aquamarine")
 end
 
 def remove_element_from_end_of_array(array)
-
-
-
-  color.pop
-
+  colors.pop
 end
 
 def remove_element_from_start_of_array(array)
-
-
-
-
-  color.shift
-
+  colors.shift
 end
 
+
+
+
 def retrieve_element_from_index(array, index_number)
-
-
-  color[2]
+  colors[2]
 end
 
 def retrieve_first_element_from_array(array)
-
-
-  color[0]
+  colors[0]
 end
 
 def retrieve_last_element_from_array(array)
-
-
-
-  color[-1]
+  colors[-1]
 end
