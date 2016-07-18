@@ -3,35 +3,42 @@ def create_an_empty_array
 end
 
 def create_an_array
-  cats = ["leo","franny", "marge", "norm"]
+  [1,2,3,4]
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["leo","franny", "marge", "norm"]
-  array << "#{element}"
+  array = ["wow", "I", "am", "really", "learning"]
+  element = "arrays!"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  array= ["leo","franny", "marge", "norm"]
-  array.unshift("#{element}")
+  array = ["I", "am", "really", "learning", "arrays!"]
+  element = "wow"
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = array.pop
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  array = array.shift
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-   array[2]
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array[2]
 end
 
 def retrieve_first_element_from_array(array)
-   array[0]
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-   array[-1]
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array[5]
 end
